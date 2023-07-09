@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>restaurant</title>
+</head>
+<body>
+    <h1>Restaurant</h1>
+    <h2>Register</h2>
+    <form>
+        <div>
+            <input id="document" type="text" placeholder="Enter document">
+        </div>
+        <div>
+            <input id="name" type="text" placeholder="Enter name">
+        </div>
+        <div>
+            <input id="lastname" type="text" placeholder="Enter lastname">
+        </div>
+        <div>
+            <input id="username" type="text" placeholder="Enter username">
+        </div>
+        <div>
+            <input id="password" type="password" placeholder="Enter password">
+        </div>
+        <button type="button" onclick="register()">Save</button>
+    </form>
+
+    <table>
+        <thead>
+        <th>Documento</th>
+        <th>Nombre</th>
+        <th>Apellido</th>
+        <th>Usuario</th>
+        </thead>
+        <tbody id="mostrar">
+
+        </tbody>
+    </table>
+
+    <script src="eel.js"></script>
+    <script src="script.js" type="text/javascript"></script>
+</body>
+</html>
